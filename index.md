@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages - I have been here
+## Professor Ramey's Twine project
+
+### Click here to start the story.
 
 You can use the [editor on GitHub](https://github.com/ltramey/Twine-project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -14,7 +16,7 @@ Syntax highlighted code block
 # Header 1
 ## Header 2
 ### Header 3
-
+[link to story](https://github.com/ltramey/Twine-project/blob/gh-pages/DHUM1100test.html)
 - Bulleted
 - List
 
