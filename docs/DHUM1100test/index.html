@@ -14,7 +14,9 @@ What would you like to do?
 [[Add sound?-&gt;Sound test]]
 [[Add an image?-&gt;Image test]]</tw-passagedata><tw-passagedata pid="2" name="Sound test" tags="" position="503,325" size="100,100">Let&#39;s add a sound. First, you will want to find a sound file from an online source. We will try adding it by URL and also by downloading the file.
 [[Embedding sound via URL-&gt;Sound url]]
-[[Pointing to a sound file on your GitHub-&gt;Sound github]]</tw-passagedata><tw-passagedata pid="3" name="Image test" tags="" position="756,370" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="4" name="Sound url" tags="" position="226,490" size="100,100">Sometimes it is difficult to find the URL for the sound. For instance, at this site, you can&#39;t see the URL when you click on the sound.
+[[Pointing to a sound file on your GitHub-&gt;Sound github]]</tw-passagedata><tw-passagedata pid="3" name="Image test" tags="" position="756,370" size="100,100">Let&#39;s add an image. First, you will want to find an image file from an online source. We will try adding it by URL and also by downloading the file.
+[[Embedding image via URL-&gt;Image url]]
+[[Pointing to an image file on your GitHub-&gt;Image github]]</tw-passagedata><tw-passagedata pid="4" name="Sound url" tags="" position="226,490" size="100,100">Sometimes it is difficult to find the URL for the sound. For instance, at this site, you can&#39;t see the URL when you click on the sound.
 
 * Open this link in your browser. https://www.bensound.com
 * Click on the image, which will take you to a page about the track. But that is not a music file, it is a web page. https://www.bensound.com/royalty-free-music/track/ukulele
@@ -30,9 +32,9 @@ Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
 Click the link below to go to the block with embedded URL sound:
 [[Page with sound from URL-&gt;URL example]]</tw-passagedata><tw-passagedata pid="5" name="Sound github" tags="" position="501,490" size="100,100">If you wish to add a sound file to your repository and link directly to that, then put the file into the same directory on GitHub where your Publish to File twine html will reside.
 
-&#96;&lt;audio src=&quot;energy.mp3&quot;; autoplay&gt;
+(b4r:&quot;solid&quot;)+(b4r-colour:red)[&#96;&lt;audio src=&quot;energy.mp3&quot;; autoplay&gt;
 Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
-&lt;/audio&gt;&#96;
+&lt;/audio&gt;&#96;]
 
 [[Play Sound from File-&gt;Play Sound]]</tw-passagedata><tw-passagedata pid="6" name="URL example" tags="" position="17,644" size="100,100">&lt;audio src=&quot;https://www.bensound.com/bensound-music/bensound-ukulele.mp3&quot;; autoplay&gt;
 Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
@@ -42,7 +44,16 @@ The ukelele clip should be playing. If it is not, check your sound on your compu
 
 &lt;audio src=&quot;energy.mp3&quot;; autoplay&gt;
 Your browser does not support the &lt;code&gt;audio&lt;/code&gt; element.
-&lt;/audio&gt;</tw-passagedata></tw-storydata>
+&lt;/audio&gt;</tw-passagedata><tw-passagedata pid="8" name="Image url" tags="" position="681,520" size="100,100">First, find an image file online and get the URL. The best way to do this is to do a search and then when you find a picture that you like, keep clicking on it until it is the only thing in the browser window. The URL in the bar should end in a picture extension (.jpg, .tif, .png). I usually find that I need to right-click and say &quot;Open in a new tab&quot; to get the actual URL for the picture.
+
+This one is from Wikipedia: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Little_Red_Riding_Hood_-_J._W._Smith.jpg/800px-Little_Red_Riding_Hood_-_J._W._Smith.jpg
+
+Copy the URL and insert the following code into a Twine box:
+(b4r:&quot;solid&quot;)+(b4r-colour:red)[&#96;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Little_Red_Riding_Hood_-_J._W._Smith.jpg/800px-Little_Red_Riding_Hood_-_J._W._Smith.jpg&gt;&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;&#96;]
+
+[[See image from URL embedded]]</tw-passagedata><tw-passagedata pid="9" name="Image github" tags="" position="831,520" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="10" name="See image from URL embedded" tags="" position="681,670" size="100,100">This is a picture of Little Red Riding Hood. You can add borders, etc., using the Twine interface. You can, of course, change the width and height.
+
+&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Little_Red_Riding_Hood_-_J._W._Smith.jpg/800px-Little_Red_Riding_Hood_-_J._W._Smith.jpg&gt;&quot; width=&quot;256&quot; height=&quot;256&quot;&gt;</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
