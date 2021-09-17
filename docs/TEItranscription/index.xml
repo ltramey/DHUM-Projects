@@ -2,7 +2,8 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-stylesheet type="text/xsl" href="http://www.w3.org/1999/XSL/Transform"?>
+<!-- ?xml-stylesheet type="text/xsl" href="http://www.w3.org/1999/XSL/Transform"? -->
+<!-- These tags are how you make a comment in XML. The statement above associates a stylesheet with this document so that you see text and not XML if you use this file as your index file. -->
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
