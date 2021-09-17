@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An Electronic Version of the first page of Chaucer's Knight's Tale</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published on GitHub as part of DHUM1100/5100</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This example has been created by transcribing and marking up the first page of Chaucer's Knight's Tale, MS EL 26 C9 of the Canterbury Tales (late 14th century) at the Huntington Library, working from the image found at https://www.bl.uk/collection-items/ellesmere-manuscript</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <l>Heere bigynneth the <title>knyghtes tale</title></l>
+         <l>Whilom as olde stories tellen us</l>
+         <l>Ther was a <roleName>duc</roleName> yt highte Theseus</l>
+         <l>Of <placeName>Atthenes</placeName> he was lord and gov(er)nour</l>
+         <l>and in his tyme sich a conquerour</l>
+         <l>That gretter was ther noon under the sonne</l>
+         <l>Ful many a riche contree hadde he wonne</l>
+      </body>
+  </text>
+</TEI>
