@@ -9,8 +9,9 @@ library("ggplot2")
 
 ## If you don't know what a package is, see below and use ctrl-return or press Run above
 
-## ??syuzhet
-## ??qdap
+??syuzhet
+??qdap
+??twitteR
 
 ## make VERY sure that the following packages have loaded-- base, datasets, dplyr, ggplot2, graphics, grDevices, methods, plyr, qdap, qdapDictionaries, qdapRegex, qdapTools, RColorBrewer, RCurl, RDSTK, readr, rjson, stats, syuzhet, twitteR, utils
 ## REPEAT - in Rstudio double check package dplyr is checked in package tab on right
@@ -40,6 +41,10 @@ g_speech_sen = get_sentences(gandhi_speech)
 g_speech_sen
 
 sentiment_vector = get_sentiment(g_speech_sen, method = "syuzhet")
+## A vector is a basic data structure in R.
+## It is a sequence of elements that share the same data type. 
+## A vector supports logical, integer, double, character, complex, or raw data type.
+
 sentiment_vector
 summary(sentiment_vector)
 boxplot(sentiment_vector)
