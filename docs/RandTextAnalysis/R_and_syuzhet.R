@@ -7,11 +7,11 @@ library("ggplot2")
 
 ## If you don't know what a package is, see below and use ctrl-return
 
-??syuzhet
-??qdap
+## ??syuzhet
+## ??qdap
 
-## make sure that the following packages have loaded-- base, datasets, dplyr, ggplot2, graphics, grDevices, methods, plyr, qdap, qdapDictionaries, qdapRegex, qdapTools, RColorBrewer, RCurl, RDSTK, readr, rjson, stats, syuzhet, twitteR, utils
-## in Rstudio double check package dplyr is checked in package tab on right
+## make VERY sure that the following packages have loaded-- base, datasets, dplyr, ggplot2, graphics, grDevices, methods, plyr, qdap, qdapDictionaries, qdapRegex, qdapTools, RColorBrewer, RCurl, RDSTK, readr, rjson, stats, syuzhet, twitteR, utils
+## REPEAT - in Rstudio double check package dplyr is checked in package tab on right
 
 gandhi_speech = read_file("assets/gandhi_speech2.txt")
 View(gandhi_speech)
