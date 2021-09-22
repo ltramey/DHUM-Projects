@@ -7,7 +7,7 @@
 [link to transcription](https://ltramey.github.io/DHUM-Projects/TEItranscription/)
 
 ## Project 3 - Text analysis with R
-To access the R project code, click the "View on GitHub" yellow button above and navigate to the folder RandTextAnalysis
+To access the R project code, click the "View on GitHub" yellow button above and navigate to the folder docs/RandTextAnalysis
 
 
 
