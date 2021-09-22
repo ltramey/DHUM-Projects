@@ -1,3 +1,5 @@
+## RStudio allows you to run each line as you work with Run above
+
 library("RDSTK")
 library("readr")
 library("twitteR")
@@ -5,7 +7,7 @@ library("qdap")
 library("syuzhet")
 library("ggplot2")
 
-## If you don't know what a package is, see below and use ctrl-return
+## If you don't know what a package is, see below and use ctrl-return or press Run above
 
 ## ??syuzhet
 ## ??qdap
