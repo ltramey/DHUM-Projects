@@ -7,6 +7,6 @@
 [link to transcription](https://ltramey.github.io/DHUM-Projects/TEItranscription/)
 
 ### Project 3 - Text analysis with R
-[link to story](https://ltramey.github.io/DHUM-Projects/DHUM1100test/)
+[link to R project](https://ltramey.github.io/DHUM-Projects/RandTextAnalysis/)
 
 
