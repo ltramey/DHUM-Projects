@@ -1,20 +1,23 @@
-## RStudio allows you to run each line as you work with Run above
+## RStudio allows you to run each line as you work with Run above.
+## See results in bottom right.
 
+## Packages are groups of functions that you can use.
+## We are putting the following packages into the Library to use.
 library("RDSTK")
 library("readr")
 library("twitteR")
 library("qdap")
 library("syuzhet")
 library("ggplot2")
+library("dplyr")
 
-## If you don't know what a package is, see below and use ctrl-return or press Run above
+## If you don't know what a package is, you can ask. Use ctrl-return or press Run above
 
 ??syuzhet
 ??qdap
 ??twitteR
 
 ## make VERY sure that the following packages have loaded-- base, datasets, dplyr, ggplot2, graphics, grDevices, methods, plyr, qdap, qdapDictionaries, qdapRegex, qdapTools, RColorBrewer, RCurl, RDSTK, readr, rjson, stats, syuzhet, twitteR, utils
-## REPEAT - in Rstudio double check package dplyr is checked in package tab on right
 
 gandhi_speech = read_file("assets/gandhi_speech2.txt")
 View(gandhi_speech)
