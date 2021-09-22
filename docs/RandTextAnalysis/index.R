@@ -23,9 +23,7 @@ library("dplyr")
 gandhi_speech = read_file("assets/gandhi_speech2.txt")
 View(gandhi_speech)
 
-## POLARITY AND SENTIMENT
-## in general (for us), sentiment is how postive, negative, or neutral a statement is.
-## polarity is the degree of that sentiment
+## polarity and sentiment
 g_scores = get_nrc_sentiment(gandhi_speech)
 class(g_scores)
 g_scores
@@ -49,7 +47,7 @@ g_speech_sen
 sentiment_vector = get_sentiment(g_speech_sen, method = "syuzhet")
 ## A vector is a basic data structure in R.
 ## It is a sequence of elements that share the same data type. 
-## (logical, integer, double, character, complex, or raw data)
+## A vector supports logical, integer, double, character, complex, or raw data type.
 
 sentiment_vector
 summary(sentiment_vector)
