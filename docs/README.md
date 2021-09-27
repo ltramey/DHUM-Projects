@@ -1,2 +1,2 @@
-# Twine-project
-DHUM1100_5100 Twine project repository
+# My Projects for Digital Humanities 1100 and 5100
+
