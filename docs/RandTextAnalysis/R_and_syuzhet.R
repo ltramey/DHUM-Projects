@@ -20,7 +20,9 @@ library("dplyr")
 
 ## make VERY sure that the following packages have loaded-- base, datasets, dplyr, ggplot2, graphics, grDevices, methods, plyr, qdap, qdapDictionaries, qdapRegex, qdapTools, RColorBrewer, RCurl, RDSTK, readr, rjson, stats, syuzhet, twitteR, utils
 
-gandhi_speech = read_file("assets/gandhi_speech2.txt")
+## gandhi_speech = read_file("assets/gandhi_speech2.txt")
+parasite_review = read_file("assets/gandhi_speech2.txt")
+
 View(gandhi_speech)
 
 ## POLARITY AND SENTIMENT
