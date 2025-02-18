@@ -3,7 +3,7 @@
 
 ## Packages are groups of functions that you can use.
 ## We are putting the following packages into the Library to use.
-library("RDSTK")
+## library("RDSTK") This is unavailable.
 library("readr")
 library("qdap")
 library("syuzhet")
@@ -78,3 +78,7 @@ library("wordcloud")
 
 wordcloud(parasite_review,colors=c("blue","green"))
 
+## This is another text analysis package.
+install.packages("tidyverse")
+?? tidyverse
+count(word, sort = TRUE)
